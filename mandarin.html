@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Navigasi</title>
+
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #117;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        header {
+            background: linear-gradient(135deg, #ff8c00, #ff4b4b);
+            padding: 20px 0;
+            box-shadow: 0px 6px 16px rgba(0, 0.1, 0.2, 0.3);
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Header Links */
+        header a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        /* Hover Effect for Header Links */
+        header a:hover {
+            color: yellow;
+        }
+
+        /* Page Title */
+        h1 {
+            margin: 40px 0;
+            font-size: 36px;
+            color: #ff4b4b;
+        }
+
+        /* Content Section */
+        .content {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="ips.html">Ilmu Pengetahuan Sosial</a>
+        <a href="agama.html">Agama</a>
+        <a href="bahasaindonesia.html">Bahasa Indonesia</a>
+        <a href="ppkn.html">Pendidikan Pancasila</a>
+        <a href="inggris.html">Bahasa Inggris</a>
+        <a href="mandarin.html">Bahasa Mandarin</a>
+    </header>
+    <h1>Ini adalah halaman Bahasa Mandarin</h1>
+    <p>Tugas bahasa mandarin ketika menjalankan edutrip Taiwan adalah untuk memperkenalkan "buddy" kami dari sekolah Taiwan. 
+    Kami butuh menjelaskan identitasnya, hobi, tinggi badan, makanan kesukaan, idola, dan deskripsi fitur badannya(hidung, mata, rambut).</p>
+    <img src="images/buddy.png">
+    <p>Deskripsi buddy kami di tugas Edutrip membantu kami menjelaskan tentang buddy dan pengalaman kami di Taiwan untuk tugas AP.</p>
+</body>
+</html>
